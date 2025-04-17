@@ -46,16 +46,7 @@ import { useParticipanteValidation } from '~/composables/useParticipanteValidati
 const eventosStore = useEventosRevearStore();
 const oficiosStore = useOficiosStore();
 const { prepareParticipanteData, createParticipante } = useParticipanteService();
-const {
-    validateNombre,
-    validateApellido,
-    validateCiudad,
-    validateTelefono,
-    validateMail,
-    validateOficio,
-    validateTerminos,
-    validateForm
-} = useParticipanteValidation();
+const { validateForm } = useParticipanteValidation();
 
 const form = ref({
     nombre: '',
