@@ -2,14 +2,14 @@
     <DefaultSection class="bg-lightGray p-4 md:p-8 xl:p-16 xl:pt-8">
         <DefaultContent class="gap-6 xl:gap-8">
             <div class="flex flex-col gap-1">
-                <DefaultSubtitle class="text-center text-primary">ACERCA DEL EVENTO</DefaultSubtitle>
+                <DefaultSubtitle class="text-center text-secondary">ACERCA DEL EVENTO</DefaultSubtitle>
                 <DefaultH2 class="text-center">ITINERARIO DEL EVENTO</DefaultH2>
             </div>
             <div class="flex flex-wrap justify-center gap-4">
                 <div v-for="(evento, index) in eventos" :key="index"
                     class="w-full max-w-[290px] xl:max-w-[306px] 2xl:max-w-[399px] shadow-1 rounded-[1.125rem]">
                     <div
-                        class="flex items-center gap-1 bg-primary rounded-t-[1.125rem] text-white font-semibold py-3 px-4">
+                        class="flex items-center gap-1 bg-secondary rounded-t-[1.125rem] text-white font-semibold py-3 px-4">
                         <p class="text-sm xl:text-base 2xl:text-xl">{{ evento.nombre_provincia }}</p>
                         <span>-</span>
                         <p class="text-sm xl:text-base 2xl:text-xl">{{ evento.nombre_ciudad }}</p>
@@ -19,12 +19,12 @@
                         <div class="flex items-center gap-3">
                             <div class="flex items-center gap-1">
                                 <Icon name="material-symbols:calendar-month-outline" size="1.5rem"
-                                    class="text-primary" />
+                                    class="text-secondary" />
                                 <p class="text-xs xl:text-sm 2xl:text-base">{{ evento.fecha }}</p>
                             </div>
                             <div class="flex items-center gap-1">
                                 <Icon name="material-symbols:nest-clock-farsight-analog-outline" size="1.5rem"
-                                    class="text-primary" />
+                                    class="text-secondary" />
                                 <p class="text-xs xl:text-sm 2xl:text-base">{{ evento.horario }}</p>
                             </div>
                         </div>

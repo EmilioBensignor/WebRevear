@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-primary py-5 px-4 md:py-[1.125rem] md:px-8 xl:px-16 mb-[2px]">
+    <header class="bg-blackRevear py-5 px-4 md:py-[1.125rem] md:px-8 xl:px-16 mb-[2px]">
         <DefaultContent class="flex !flex-row justify-between items-center">
             <div class="flex items-center gap-2 md:gap-6">
                 <NuxtImg src="/images/Logo-Sika.svg" alt="Logo Sika" class="h-6 md:h-16" />
@@ -27,7 +27,6 @@ const socialMedia = [
     },
     {
         name: 'YouTube',
-        icon: 'material-symbols:youtube',
         url: '#'
     },
 ]

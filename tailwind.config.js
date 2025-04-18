@@ -9,12 +9,14 @@ export default {
         },
         extend: {
             colors: {
-                primary: "#E73731",
-                secondary: "#811F1B",
+                primary: "#007D93",
+                secondary: "#870D4D",
                 sikaPrimary: "#FFC510",
                 sikaSecondary: "#99760A",
                 gray: "#616161",
                 lightGray: "#F9F9F9",
+                blackRevear: "#222221",
+                blackFooter: "#1E1E1E",
                 error: "#E73731",
             }
         }

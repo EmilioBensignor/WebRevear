@@ -5,7 +5,7 @@
                 <source media="(min-width: 1440px)" srcset="/images/home/acerca/Acerca-Evento-Revear-DesktopXL.png" />
                 <source media="(min-width: 1080px)" srcset="/images/home/acerca/Acerca-Evento-Revear-Desktop.png" />
                 <source media="(min-width: 660px)" srcset="/images/home/acerca/Acerca-Evento-Revear-Tablet.png" />
-                <NuxtImg src="/images/home/acerca/Acerca-Evento-Revear-Mobile.png" alt="Revear Hero"
+                <NuxtImg src="/images/home/acerca/Acerca-Evento-Revear-Mobile.png" alt="Acerca del Evento Revear"
                     class="w-full h-full object-cover" />
             </picture>
             <div class="md:w-1/2 flex flex-col gap-6 p-4 md:pl-8 xl:p-8">
@@ -13,7 +13,7 @@
                     <DefaultSubtitle>
                         ACERCA DEL EVENTO
                     </DefaultSubtitle>
-                    <DefaultH2 class="text-primary">EN BUSCA DEL COLOCADOR Revear</DefaultH2>
+                    <DefaultH2 class="text-primary">CONVERTITE EN UN EXPERTO REVEAR</DefaultH2>
                 </div>
                 <div class="flex flex-col gap-3">
                     <div v-for="(actividad, index) in actividades" :key="index"

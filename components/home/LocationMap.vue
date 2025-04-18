@@ -5,7 +5,7 @@
         <div class="flex gap-2 absolute bottom-0 left-0 right-0 z-10 overflow-x-scroll p-4">
             <button v-for="(evento, index) in eventos" :key="index" :class="[
                 'border-none rounded-[9px] text-sm font-semibold transition-all duration-300 cursor-pointer py-[8.5px] px-9',
-                selectedEventoIndex === index ? 'bg-primary text-white' : 'bg-white text-primary'
+                selectedEventoIndex === index ? 'bg-secondary text-white' : 'bg-white text-secondary'
             ]" @click="selectEvento(index)">
                 {{ evento.nombre_ciudad }}
             </button>
