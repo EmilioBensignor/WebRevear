@@ -1,4 +1,7 @@
 <template>
-    <h1 class="text-xl">Index</h1>
-    <FormParticipante />
+    <h1 class="sr-only">Revear</h1>
+    <HomeHero />
+    <HomeEvento />
+    <HomeAcerca />
+    <HomeItinerario />
 </template>

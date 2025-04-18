@@ -15,6 +15,7 @@ export default {
                 sikaSecondary: "#99760A",
                 gray: "#616161",
                 lightGray: "#F9F9F9",
+                error: "#E73731",
             }
         }
     }
