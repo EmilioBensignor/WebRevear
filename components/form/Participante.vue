@@ -44,6 +44,8 @@
             {{ isSubmitting ? 'REGISTRANDO...' : 'REGISTRARME' }}
         </button>
     </form>
+
+    <FormConfirmation :visible="modalVisible" @close="modalVisible = false" />
 </template>
 
 <script setup>
@@ -81,6 +83,8 @@ const errors = ref({
 const isSubmitting = ref(false);
 const showErrors = ref(false);
 
+const modalVisible = ref(false);
+
 const oficiosFormateados = computed(() => oficiosStore.oficiosParaSelect);
 
 const ciudadesFormateadas = computed(() =>
@@ -110,6 +114,8 @@ const handleSubmit = async () => {
                 terminos: false
             };
             showErrors.value = false;
+
+            modalVisible.value = true;
         }
     } catch (error) {
         console.error('Error al enviar el formulario:', error);
